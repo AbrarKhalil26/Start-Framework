@@ -1,0 +1,26 @@
+:root {
+  --bg-very-dark: #1a252f;
+  --bg-dark: #2c3e50;
+  --bg-cyan: #1abc9c;
+}
+.bg-main {
+  background-color: var(--bg-dark);
+}
+.bg-very-dark {
+  background-color: var(--bg-very-dark);
+}
+.bg-cyan{
+  background-color: var(--bg-cyan);
+}
+.text-semi-dark{
+  color: var(--bg-dark);
+}
+.transition{
+  transition: all 0.3s;
+}
+.w-fit{
+  width: fit-content;
+}
+input {
+  outline: none;
+}

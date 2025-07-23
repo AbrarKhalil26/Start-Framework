@@ -1,0 +1,41 @@
+.social li {
+  width: 35px;
+  height: 35px;
+}
+.underline {
+  width: 55%;
+  height: 4px;
+}
+.parent-star-icon {
+  width: 50px;
+  top: -10px;
+  left: 50%;
+  z-index: 10;
+  transform: translateX(-50%);
+}
+.product{
+  cursor: pointer;
+}
+.product:hover .parent-plus-icon{
+  opacity: 1;
+}
+.parent-plus-icon{
+  opacity: 0;
+  transition: all 0.5s;
+  background-color: rgba(26, 188, 156, 90%);
+}
+.modal{
+  z-index: 100000;
+}
+@media (min-width: 768px) {
+  form.w-md-50{
+    width: 50% !important;
+  }
+}
+.active{
+  background-color: var(--bg-cyan);
+  border-radius: 8px;
+}
+.content{
+  padding-top: 6rem;
+}
